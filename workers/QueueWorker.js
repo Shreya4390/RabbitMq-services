@@ -1,6 +1,6 @@
 const amqp = require("amqplib");
 const QUEUE_METADATA = require("./data/exchange");
-const rabbitmqUrl =  "amqps://snadkezc:c6U-9h0F1m4WJVJw6DKhvzzgbKmYopZP@puffin.rmq2.cloudamqp.com/snadkezc";
+const rabbitmqUrl =  "";
 
   const connect = async () => {
     try {
